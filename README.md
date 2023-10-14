@@ -12,11 +12,11 @@ Após a criação da instância na Azure para MySQL, o banco azure_company foi c
 4. A coluna Salary da tabela employee teve o tipo alterado para número decimal fixo, ficando de acordo com o banco.
 5. O único valor nulo encontrado corresponde ao colaborador que não possue gerente e é gerente.
 
-![Seperação da coluna que compone o endereço](img/.png)
+![Seperação da coluna que compone o endereço](img/3.png)
 
 6. Verificação do número de horas por projeto.
 
-![Seperação da coluna que compone o endereço](img/.png)
+![Seperação da coluna que compone o endereço](img/4.png)
 
 7. O endereço da tabela employee foi separado em outras colunas: Anumber, Astreet, Acity, Astate.
    
