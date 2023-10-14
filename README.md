@@ -26,7 +26,7 @@ select concat(e.Fname, " ", e.Minit, " ", e.Lname) as Employeer, concat(m.Fname,
 from employee as e
 left join employee as m on e.Super_ssn = m.Ssn;
 ```
-7. As colunas que compõem o nome do colaborador na tabela employee foram mescladas.
+7. As colunas que compõem o nome do colaborador (Ename) na tabela employee foram mescladas.
 
 ![Seperação da coluna que compone o endereço](img/1.png)
 
