@@ -43,7 +43,7 @@ left join employee as m on e.Super_ssn = m.Ssn;
 
 ![Junção das colunas que formam o nome e a localização](img/2.png)
 
-* O método atribuir não pode ser usado na operação anterior, porque ele prenche os espaços em branco com nulo não junção.
+* O método atribuir não pode ser usado na operação anterior, porque ele prenche os espaços em branco com nulo não junção. Mesclando apenas a coluna Dnumber, comum nas duas tabelas.
 
 ![Junção das colunas que formam o nome e a localização](img/5.png)
 
