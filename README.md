@@ -24,3 +24,4 @@ from employee as e
 left join employee as m on e.Super_ssn = m.Ssn;
 ```
 7. As colunas que compõem o nome do colaborador na tabela employee foram mescladas
+8. As tabelas departament e dept_locations foram unidas para posteriormente terem as colunas Dname e Dlocation mescladas
