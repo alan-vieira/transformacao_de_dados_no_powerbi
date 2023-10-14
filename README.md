@@ -43,6 +43,10 @@ left join employee as m on e.Super_ssn = m.Ssn;
 
 ![Junção das colunas que formam o nome e a localização](img/2.png)
 
+* O método atribuir não pode ser usado na operação anterior, porque ele prenche os espaços em branco com nulo não junção.
+
+![Junção das colunas que formam o nome e a localização](img/5.png)
+
 12. Todal de colaboradores por gerente.
 ```sql
 select concat(m.Fname, " ", m.Minit, " ", m.Lname) as Gerente,
