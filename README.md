@@ -42,3 +42,11 @@ left join employee as m on e.Super_ssn = m.Ssn;
 11. As tabelas departament e dept_locations foram unidas para posteriormente terem as colunas Dname e Dlocation mescladas. A tabela desnecessário foi removida.
 
 ![Junção das colunas que formam o nome e a localização](img/2.png)
+
+12. Todal de colaboradores por gerente.
+```sql
+select concat(m.Fname, " ", m.Minit, " ", m.Lname) as Gerente,
+count(*) as Total_de_colaboradores
+from employee as e
+inner join employee as m on e.Super_ssn = m.Ssn group by Gerente;
+```
